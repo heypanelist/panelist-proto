@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package panelist.client;
+option go_package = "github.com/heypanelist/panelist-proto/client";
+
+enum URI {
+    PANELIST_CLIENT_REGISTER = 0;
+}

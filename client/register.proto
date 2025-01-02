@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package panelist.client;
+option go_package = "github.com/heypanelist/panelist-proto/client";
+
+message RegisterRequest {
+    string name = 1;
+    string client = 2;
+}
+
+message RegisterResponse {
+    string id = 1;
+}
